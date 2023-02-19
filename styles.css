@@ -1,7 +1,7 @@
 body {background: gray}
 div.content {
-    width: 150px; height: 150px; border: 5px solid black; float: left; text-align: center; margin: 20px;
+    width: 300px; height: 300px; border: 5px solid black; float: left; text-align: center; margin: 20px;
 }
 div#first{background:black}
 div#second{background: white;}
-button {position: relative; top: 200px; left: -250px; height: 50px; width:100px;}
+button {position: relative; top: 400px; left: -500px; height: 100px; width:200px;}
