@@ -5,7 +5,8 @@ div.content {
 #first{background-color:black;}
 #second{background-color: white;}
 #emma{width: 500px; height:500px; border: 10px solid black; background-image: url("emma.jpg");}
-button.color {position: relative; height: 100px; width:200px; top: 400px; left: -650px;}
-button.emma {position: relative; height: 100px; width:200px; top: 400px; left: -500px;}
-button.back {position:relative; height:100px; width: 200px; left: 100px; margin:50px}
+.color {position: relative; height: 100px; width:200px; top: 400px; left: -650px;}
+.emma {position: relative; height: 100px; width:200px; top: 400px; left: -500px;}
+.back {position:relative; height:100px; width: 200px; left: 100px; margin:50px}
+.alert {position: relative; width: 300px; height: 200px; margin: 20px}
 button:hover {text-decoration: underline; background-color: aqua;}

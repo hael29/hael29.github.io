@@ -8,4 +8,7 @@ function mf() {
     // swap their colors
     element1.style.backgroundColor = color2;
     element2.style.backgroundColor = color1;
+function alert() {
+    alert("Attention! Computer malfunction! Keyboard not work right. You press button hard or no type good. Me apologize for inconvenience. We work hard fix problem. Thank you for patience.")
+}
 }
