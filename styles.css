@@ -8,5 +8,8 @@ div.content {
 .color {position: relative; height: 100px; width:200px; top: 400px; left: -650px;}
 .emma {position: relative; height: 100px; width:200px; top: 400px; left: -500px;}
 .back {position:relative; height:100px; width: 200px; left: 100px; margin:50px}
-.alert {position: relative; width: 300px; height: 200px; margin: 20px}
+.alert {position:relative; width: 300px; height: 200px; margin: 20px; top:500px}
 button:hover {text-decoration: underline; background-color: aqua;}
+.palette {width: 300px; height: 80px; background-color: yellowgreen; display:none; text-align: center;}
+ul#palette {float:left;}
+#hide{background-color: white;}

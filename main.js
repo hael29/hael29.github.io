@@ -8,7 +8,22 @@ function mf() {
     // swap their colors
     element1.style.backgroundColor = color2;
     element2.style.backgroundColor = color1;
-function alert() {
-    alert("Attention! Computer malfunction! Keyboard not work right. You press button hard or no type good. Me apologize for inconvenience. We work hard fix problem. Thank you for patience.")
 }
+function hide() {
+    const divs = document.querySelectorAll(".palette")
+    divs.forEach(div => {
+        div.style.display = "none"
+    });
 }
+function show() {
+    const divs = document.querySelectorAll(".palette")
+    divs.forEach(div => {
+        div.style.display = "block"
+    });
+}
+function changebg(bgcolor) {
+    let bg = document.getElementById("idk");
+    bg.style.backgroundColor = bgcolor
+}
+    
+
