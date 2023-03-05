@@ -1,15 +1,20 @@
 body {background: gray}
 div.content {
-    width: 300px; height: 300px; border: 5px solid black; margin:20px; float:left
+    width: 300px; height: 300px; border: 5px solid black; margin:20px; position:absolute;
 }
 #first{background-color:black;}
-#second{background-color: white;}
+#second{background-color: white; left:400px}
 #emma{width: 500px; height:500px; border: 10px solid black; background-image: url("emma.jpg");}
-.color {position: relative; height: 100px; width:200px; top: 400px; left: -650px;}
-.emma {position: relative; height: 100px; width:200px; top: 400px; left: -500px;}
-.back {position:relative; height:100px; width: 200px; left: 100px; margin:50px}
-.alert {position:relative; width: 300px; height: 200px; margin: 20px; top:500px}
-button:hover {text-decoration: underline; background-color: aqua;}
-.palette {width: 300px; height: 80px; background-color: yellowgreen; display:none; text-align: center;}
-ul#palette {float:left;}
+
+.buttons {position:absolute; display:flex; top:400px; left: 10px;}
+#mainbuttons {height: 100px; width:200px; margin:20px;}
+
+
+.back {position:absolute; height:100px; width: 200px; left: 100px; margin:50px}
+
+.palette {width: 300px; height: 80px; background-color: yellowgreen; display:none; text-align: center; font-size: 24px;}
+ul#palette {position:absolute; left: 750px;}
 #hide{background-color: white;}
+
+
+button:hover {text-decoration: underline; background-color: aqua;}

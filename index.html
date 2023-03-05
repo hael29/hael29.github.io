@@ -9,19 +9,19 @@
             <div class="content" id="first"></div>
             <div class="content" id="second"></div>
         </ul>
-        <div>
-            <ul id="palette">
-                <button class="palette" onclick="changebg('red')">ugly red</button>
-                <button class="palette" onclick="changebg('lightgreen')">light green</button>
-                <button class="palette" onclick="changebg('lightblue')">light blue</button>
-                <button class="palette" onclick="changebg('magenta')">magenta</button>
-                <button class="palette" onclick="changebg('gray')">gray</button>
-                <button class="palette" onclick="hide()" id="hide">hide</button>
-            </ul>
-        </div>
-        <button class="color" onclick="mf()"> Swap colors! </button>
-        <a href="emma.html"><button class="emma"> Emma Myers Picture </button></a>
-        <button class="alert" onclick="show()">CHANGE THE BACKGROUND COLOR</button>
+        <ul id="palette">
+            <button class="palette" onclick="changebg('red')">ugly red</button>
+            <button class="palette" onclick="changebg('lightgreen')">light green</button>
+            <button class="palette" onclick="changebg('lightblue')">light blue</button>
+            <button class="palette" onclick="changebg('magenta')">magenta</button>
+            <button class="palette" onclick="changebg('gray')">gray</button>
+            <button class="palette" onclick="hide()" id="hide">hide</button>
+        </ul>
+        <ul class="buttons">
+            <button id="mainbuttons" onclick="mf()"> Swap colors! </button>
+            <a href="emma.html"><button id="mainbuttons"> Emma Myers Picture </button></a>
+            <button id="mainbuttons"onclick="show()">Change the background color</button>
+        </ul>
     </body>
     <script src="main.js"></script>
 </html>
