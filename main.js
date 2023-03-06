@@ -25,5 +25,12 @@ function changebg(bgcolor) {
     let bg = document.getElementById("idk");
     bg.style.backgroundColor = bgcolor
 }
+function randomcolor() {
+    let bg = document.getElementById("idk");
+    let a = Math.floor(Math.random()* 256);
+    let b = Math.floor(Math.random()* 256);
+    let c = Math.floor(Math.random()* 256);
+    bg.style.backgroundColor = "rgb(" + a + "," + b + "," + c + ")";
+}
     
 
