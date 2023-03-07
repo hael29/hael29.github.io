@@ -32,5 +32,29 @@ function randomcolor() {
     let c = Math.floor(Math.random()* 256);
     bg.style.backgroundColor = "rgb(" + a + "," + b + "," + c + ")";
 }
-    
+function swap() {
+    const element1 = document.getElementById("first"); 
+    const element2 = document.getElementById("second");
+    if (a) {
+        element1.style.transform = "translateX(114%)"
+        element2.style.transform = "translateX(-114%)"
+        a = false
+    } else {
+        element2.style.transform = "translateX(0%)"
+        element1.style.transform = "translateX(0%)"
+        a = true
 
+    }
+}
+const element1 = document.getElementById("first");
+const element2 = document.getElementById("second");
+
+function getPos(el) {
+    // yay readability
+    for (var lx=0, ly=0;
+         el != null;
+         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+    return {x: lx,y: ly};
+}
+var a = true
+console.log(getPos(document.getElementById("first")))
