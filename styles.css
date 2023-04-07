@@ -4,7 +4,7 @@ div.content {
 }
 #first{background-color:black;}
 #second{background-color: white; left:400px}
-#emma{width: 500px; height:500px; border: 10px solid black; background-image: url("emma.jpg");}
+#emma{width: 500px; height:300px; border: 10px solid black; background-image: url("cat.jpg");}
 
 .buttons {position:absolute; display:flex; top:400px; left: 10px;}
 #mainbuttons {height: 100px; width:200px; margin:20px;}
@@ -17,6 +17,11 @@ ul#palette {position:absolute; left: 750px;}
 #hide{background-color: white;}
 
 p {position:absolute; top: 550px; left:50px; font-size: 30px; color:black;}
-
-
 button:hover {text-decoration: underline; background-color: aqua;}
+
+.only {
+    position: absolute;
+    top: 675px;
+    left: 35px;
+  }
+  
